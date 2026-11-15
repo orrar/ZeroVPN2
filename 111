@@ -1,1 +1,745 @@
-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vbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1wbDEubm5tbS5tZSZmcD1maXJlZm94JnBiaz12aUhqSmVrVkJacS1QMF93NGc0TmdDX0NrN3JSTjV3X1ptcDJPS1VrX0dRJnNpZD1mNTYzNDc1ZGQwZmE0MTI5JnR5cGU9dGNwJmhlYWRlclR5cGU9bm9uZSMlRjAlOUYlODclQjklRjAlOUYlODclQjElQzIlQTAlRDAlOUYlRDBrJUQwJUJCJUQxJThDJUQxJTg4JUQwJUIwJTIwJTI4UEwxJTJDJTIwJUQwJUEyJUQwJUI1JUQxJTgxJUQxJTgyJTI5CnZsZXNzOi8vZGQ1YmVkMGItZWU3Ny00ODFiLTlmMmMtMjUwYTYzMmRkZDlmQGdldC5qYXJib29rLm5ldDo0NDM/ZW5jcnlwdGlvbj1ub25lJmZsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1nZXQuamFyYm9vay5uZXQmZnA9Y2hyb21lJnBiaz1CSXk2SC1qbmRuMjRVa3l3ODNNTDhMREIxSDhXTEptZkNBREV5OGx6VnMmc2lkPWM2Zjk3MzEzJnR5cGU9dGNwJmhlYWRlclR5cGU9bm9uZSMlRjAlOUYlODclQjklRjAlOUYlODclQjElQzIlQTAlRDAlOUYlRDBrJUQwJUJCJUQxJThDJUQxJTg4JUQwJUIwJTIwJTI4SkFyYm9vayUyQyUyMCVEMCVBMiVEMCVCNSVEMSU4MSVEMSU4MiUyOQp2bGVzczovLzhjNzc4YTllLTM2NTEtNDRlMy04ZWJjLWI2ZDViMmQxNDEyYkB1cy0xLmJuYy1ndC5jby51azo0NDM/ZW5jcnlwdGlvbj1ub25lJmZsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1jLnVzLTEuYm5jLWd0LmNvLnVrJmZwPWZpcmVmb3gmcGJrPUNlZ3FManpPSW1VbVlEOVpkcE9PRzY1VWdOVEdlUWZSbXBJbmk4aXJhQjAmc2lkPTdiZTFlOWMyNDM0NTFiMTQmdHlwZT10Y3AmaGVhZGVyVHlwZT1ub25lIyVGMCU5RiU4NyVCQSVGMCU5RiU4NyVCOCVDMiVBMCVEMCVBMSVEMCVBOCVEMCU5MCUyMCUyOFVTJTJDJTIwJUQwJUEyJUQwJUI1JUQxJTgxJUQxJTgyJTI5CnZsZXNzOi8vZTU4MmE4Y2MtMTQ3MC00NmMyLWJmYzAtMTE3NDQ1NTJlNjcxQHBsMS1tZ210LnNvc2hlbHBlci5zcGFjZTo0NDM/ZW5jcnlwdGlvbj1ub25lJmZsb3c9eHRscy1ycHJ4LXZpc2lvbiZzZWN1cml0eT1yZWFsaXR5JnNuaT1wbDEuc29zaGVscGVyLnNwYWNlJmZwPWZpcmVmb3gmcGJrPW1FbzRrSFBwUm5zN2VmSmZWVzFHLWdERXNQYWcwakVMRlFLLUhJd3J2alkmc2lkPTY1NjJjZjYxNzcyODE4NmUmdHlwZT10Y3AmaGVhZGVyVHlwZT1ub25lIyVGMCU5RiU4NyVCOSVGMCU5RiU4NyVCMSVDMiVBMCVEMCU5RiVEMCVCRSVEMCVCQiVEMSU4QyVEMSU4OCVEMCVCMCUyMCUyOFBMMSUyMC0lMjBTb3MlMjklMjAlRDAlQTIlRDAlQjUlRDElODElRDElODIlMjA
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Zero VPN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            padding-top: 50px;
+        }
+        h1 { color: #4e9af1; }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #16213e;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #0f3460;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            border: 1px solid #4e9af1;
+        }
+        .btn:hover { background: #4e9af1; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Zero VPN</h1>
+        <p>Ваша конфигурация успешно загружена.</p>
+        <p>Скопируйте эту ссылку и вставьте её в приложение Happ для автоматического добавления всех серверов.</p>
+        <p id="url-display" style="word-break: break-all; font-size: 12px; color: #aaa;"></p>
+        <a href="#" class="btn" id="copy-btn" onclick="copyToClipboard()">Скопировать ссылку</a>
+    </div>
+
+    <script>
+        function copyToClipboard() {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(() => {
+                alert('Ссылка скопирована! Вставьте её в Happ.');
+            });
+        }
+    </script>
+
+    <!-- ВСТРОЕННАЯ КОНФИГУРАЦИЯ SING-BOX (ВСЕ СЕРВЕРА) -->
+    <script id="singbox-config" type="application/json">
+{
+  "remarks": "Zero VPN · All Servers",
+  "meta": {
+    "serverDescription": "Zero vpn"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https+local://8.8.8.8/dns-query",
+        "domains": [
+          "domain:google.com",
+          "domain:ru",
+          "domain:su",
+          "domain:xn--p1ai",
+          "domain:nngo.cc",
+          "domain:nnmm.me",
+          "domain:nn-id.com",
+          "domain:tgnn.live",
+          "domain:nnmgo.com",
+          "domain:nntoot.com"
+        ],
+        "timeoutMs": 2000,
+        "skipFallback": true
+      },
+      {
+        "address": "https+local://1.1.1.1/dns-query",
+        "domains": [
+          "domain:google.com",
+          "domain:ru",
+          "domain:su",
+          "domain:xn--p1ai",
+          "domain:nngo.cc",
+          "domain:nnmm.me",
+          "domain:nn-id.com",
+          "domain:tgnn.live",
+          "domain:nnmgo.com",
+          "domain:nntoot.com"
+        ],
+        "timeoutMs": 2000,
+        "finalQuery": true,
+        "skipFallback": true
+      },
+      {
+        "tag": "dns-via-vpn",
+        "port": 53,
+        "address": "127.0.0.1",
+        "domains": [
+          "regexp:.*"
+        ],
+        "timeoutMs": 2000,
+        "skipFallback": true
+      }
+    ],
+    "queryStrategy": "UseIPv4",
+    "enableParallelQuery": false,
+    "disableFallbackIfMatch": true
+  },
+  "routing": {
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPOnDemand",
+    "rules": [
+      {
+        "type": "field",
+        "inboundTag": [
+          "dns-via-vpn"
+        ],
+        "port": 53,
+        "network": "tcp,udp",
+        "balancerTag": "Balancer"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:cloudflare-dns.com",
+          "domain:one.one.one.one",
+          "domain:dns.google",
+          "domain:quad9.net"
+        ],
+        "port": 443,
+        "network": "udp",
+        "balancerTag": "Balancer"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "1.1.1.1/32",
+          "1.0.0.1/32",
+          "8.8.8.8/32",
+          "8.8.4.4/32",
+          "9.9.9.9/32",
+          "149.112.112.112/32"
+        ],
+        "port": 443,
+        "network": "udp",
+        "balancerTag": "Balancer"
+      },
+      {
+        "type": "field",
+        "port": 443,
+        "network": "udp",
+        "outboundTag": "BLOCK"
+      },
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "BLOCK"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:2ip.ru"
+        ],
+        "balancerTag": "Balancer"
+      },
+      {
+        "type": "field",
+        "ip": [
+          "10.0.0.0/8",
+          "172.16.0.0/12",
+          "192.168.0.0/16",
+          "100.64.0.0/10",
+          "127.0.0.0/8",
+          "169.254.0.0/16",
+          "224.0.0.0/4",
+          "255.255.255.255/32",
+          "198.18.0.2/32"
+        ],
+        "outboundTag": "DIRECT"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:localhost",
+          "domain:local",
+          "domain:lan",
+          "domain:home.arpa",
+          "domain:internal",
+          "domain:localdomain"
+        ],
+        "outboundTag": "DIRECT"
+      },
+      {
+        "type": "field",
+        "network": "udp,tcp",
+        "balancerTag": "Balancer"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "Balancer",
+        "selector": [
+          "Auto1",
+          "Auto2",
+          "Auto3",
+          "Auto4",
+          "Auto5",
+          "Auto6",
+          "Auto7",
+          "Auto8",
+          "Auto9",
+          "Auto10",
+          "Auto11",
+          "Auto12",
+          "Auto13",
+          "Auto14",
+          "Auto15"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "maxRTT": "8s",
+            "expected": 1,
+            "tolerance": 0.34,
+            "baselines": [
+              "2s"
+            ]
+          }
+        },
+        "fallbackTag": "DIRECT"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "ipsExcluded": [
+          "1.1.1.1/32",
+          "1.0.0.1/32",
+          "8.8.8.8/32",
+          "8.8.4.4/32",
+          "9.9.9.9/32",
+          "149.112.112.112/32"
+        ],
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": true,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "Auto1",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "de5.nntoot.com",
+            "port": 443,
+            "users": [
+              {
+                "id": "e582a8cc-1470-46c2-bfc0-11744552e671",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "de5.nntoot.com",
+          "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+          "shortId": "f563475dd0fa4129",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "Auto2",
+      "protocol": "trojan",
+      "settings": {
+        "servers": [
+          {
+            "address": "ee1.nngo.cc",
+            "port": 443,
+            "password": "h-nsAeS2V45VoQn5Dqm97TvQ9TZqpxAR"
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "ee1.nngo.cc",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2",
+            "http/1.1"
+          ]
+        }
+      },
+      "mux": {
+        "enabled": true,
+        "concurrency": 8,
+        "xudpConcurrency": -1
+      }
+    },
+    {
+      "tag": "Auto3",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl3.nngo.cc",
+            "port": 443,
+            "users": [
+              {
+                "id": "e582a8cc-1470-46c2-bfc0-11744552e671",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "nl3.nngo.cc",
+          "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+          "shortId": "f563475dd0fa4129",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "Auto4",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "nl2.nngo.cc",
+            "port": 443,
+            "users": [
+              {
+                "id": "e582a8cc-1470-46c2-bfc0-11744552e671",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "nl2.nngo.cc",
+          "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+          "shortId": "f563475dd0fa4129",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "Auto5",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pl2.nngo.cc",
+            "port": 443,
+            "users": [
+              {
+                "id": "e582a8cc-1470-46c2-bfc0-11744552e671",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pl2.nngo.cc",
+          "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+          "shortId": "f563475dd0fa4129",
+          "fingerprint": "firefox"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "delays": [
+                  "1-3"
+                ],
+                "lengths": [
+                  "50-100"
+                ],
+                "packets": "1-3",
+                "maxSplit": "0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tag": "Auto6",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "pl1.nnmm.me",
+            "port": 443,
+            "users": [
+              {
+                "id": "e582a8cc-1470-46c2-bfc0-11744552e671",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "pl1.nnmm.me",
+          "publicKey": "viHjJekVBZq-P0_w4g4NgC_Ck7rRN5w_Zmp2OKUk_GQ",
+          "shortId": "f563475dd0fa4129",
+          "fingerprint": "firefox"
+        },
+        "finalmask": {
+          "tcp": [
+            {
+              "type": "fragment",
+              "settings": {
+                "delays": [
+                  "1-3"
+                ],
+                "lengths": [
+                  "50-100"
+                ],
+                "packets": "1-3",
+                "maxSplit": "0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "tag": "Auto7",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "get.jarbook.net",
+            "port": 443,
+            "users": [
+              {
+                "id": "dd5bed0b-ee77-481b-9f2c-250a632ddd9f",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "get.jarbook.net",
+          "publicKey": "BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs",
+          "shortId": "c6f97313",
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "Auto8",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "us-1.bnc-gt.co.uk",
+            "port": 443,
+            "users": [
+              {
+                "id": "8c778a9e-3651-44e3-8ebc-b6d5b2d1412b",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "c.us-1.bnc-gt.co.uk",
+          "publicKey": "CegqLjzOImUmYD9ZdpOOG65UgNTGeQfRmpIni8iraB0",
+          "shortId": "7be1e9c243451b14",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "Auto9",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "us-1.bnc-gt.co.uk",
+            "port": 443,
+            "users": [
+              {
+                "id": "8c778a9e-3651-44e3-8ebc-b6d5b2d1412b",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+          "path": "/ws/"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "c.us-1.bnc-gt.co.uk",
+          "fingerprint": "qq"
+        }
+      }
+    },
+    {
+      "tag": "Auto10",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "us-1.bnc-gt.co.uk",
+            "port": 443,
+            "users": [
+              {
+                "id": "8c778a9e-3651-44e3-8ebc-b6d5b2d1412b",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "c.us-1.bnc-gt.co.uk",
+          "fingerprint": "qq",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "Auto11",
+      "protocol": "hysteria",
+      "settings": {
+        "address": "us-1.bnc-gt.co.uk",
+        "port": 2443,
+        "version": 2
+      },
+      "streamSettings": {
+        "network": "hysteria",
+        "hysteriaSettings": {
+          "version": 2,
+          "auth": "8c778a9e-3651-44e3-8ebc-b6d5b2d1412b"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "us-1.bnc-gt.co.uk",
+          "fingerprint": "qq",
+          "alpn": [
+            "h3"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "Auto12",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "204.152.198.135",
+            "port": 57938,
+            "users": [
+              {
+                "id": "d62f1228-251a-4fa9-a739-093244083cab",
+                "encryption": "mlkem768x25519plus.native.0rtt.Rej94IYrH64T6AyDB9hNM4Js72UHDSn_DPVlPwVoi2c",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "api.docs.nvidia.com",
+          "publicKey": "W_VahGtN28jS59zNCnex-Bfpz2eNVY5VveQwkHoUZgQ",
+          "shortId": "acb05d85369b",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "Auto13",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "45.146.90.166",
+            "port": 443,
+            "users": [
+              {
+                "id": "e582a8cc-1470-46c2-bfc0-11744552e671",
+                "encryption": "none",
+                "flow": ""
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "xhttpSettings": {
+          "mode": "stream-up",
+          "path": "/6bf433ad8f3f60c97cd42b567cd20b46/"
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "nntoot.com",
+          "fingerprint": "firefox",
+          "alpn": [
+            "h2"
+          ]
+        }
+      }
+    },
+    {
+      "tag": "DIRECT",
+      "protocol": "freedom",
+      "settings": {
+        "domainStrategy": "ForceIPv4"
+      }
+    },
+    {
+      "tag": "BLOCK",
+      "protocol": "blackhole"
+    }
+  ],
+  "burstObservatory": {
+    "pingConfig": {
+      "timeout": "5s",
+      "interval": "30s",
+      "sampling": 3,
+      "httpMethod": "HEAD",
+      "destination": "https://www.gstatic.com/generate_204"
+    },
+    "subjectSelector": [
+      "Auto1",
+      "Auto2",
+      "Auto3",
+      "Auto4",
+      "Auto5",
+      "Auto6",
+      "Auto7",
+      "Auto8",
+      "Auto9",
+      "Auto10",
+      "Auto11",
+      "Auto12",
+      "Auto13"
+    ]
+  }
+}
+    </script>
+</body>
+</html>
